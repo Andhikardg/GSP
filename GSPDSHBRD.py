@@ -24,9 +24,21 @@ def connect_to_gsheet(creds_json, spreadsheet_name):
 
 SPREADSHEET_NAME = 'GSP'
 SHEET_NAME = 'Sheet1'
-CREDENTIALS_FILE = st.secrets['credentials']
+credentials = {
+  "type": st.secrets.type, 
+  "project_id": st.secrets.project_id,
+  "private_key_id": st.secrets.private_key_id,
+  "private_key": st.secrets.private_key,
+  "client_id": st.secrets.project_id.client_id,
+  "auth_uri": st.secrets.auth_uri,
+  "token_uri": st.secrets.token_uri,
+  "auth_provider_x509_cert_url": st.secrets.auth_provider_x509_cert_url,
+  "client_x509_cert_url": st.secrets.client_x509_cert_url,
+  "universe_domain": st.secrets.universe_domain
+}
 
-spreadsheet = connect_to_gsheet(CREDENTIALS_FILE, SPREADSHEET_NAME)
+
+spreadsheet = connect_to_gsheet(credentials, SPREADSHEET_NAME)
 
 
 def read_data(spreadsheet, SHEET_NAME):
