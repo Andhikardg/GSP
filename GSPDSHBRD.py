@@ -616,7 +616,7 @@ if st.session_state.selected_menu == 'All Company':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realisasi & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
