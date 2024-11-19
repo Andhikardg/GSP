@@ -658,7 +658,7 @@ elif st.session_state.selected_menu == 'Accenture':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -698,7 +698,7 @@ elif st.session_state.selected_menu == 'IBM':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -737,7 +737,7 @@ elif st.session_state.selected_menu == 'Alibaba':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -777,7 +777,7 @@ elif st.session_state.selected_menu == 'F5':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -816,7 +816,7 @@ elif st.session_state.selected_menu == 'PaloAlto Networks':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -855,7 +855,7 @@ elif st.session_state.selected_menu == 'Cisco':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -894,7 +894,7 @@ elif st.session_state.selected_menu == 'Meta':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
@@ -933,7 +933,7 @@ elif st.session_state.selected_menu == 'Thales':
     st.markdown(
     """
     <div style="text-align: center; font-size: 12px; color: grey;">
-        <p>IDR in Billion.</p>
+        <p>Realization & Target in IDR Billion.</p>
     </div>
     """,
     unsafe_allow_html=True
