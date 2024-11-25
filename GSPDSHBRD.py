@@ -629,7 +629,7 @@ if st.session_state.selected_menu == 'All Company':
     show4(df_all_process)
     show5(df_all_process)
     show6(df_all_process)
-    st.session_state.selected_menu = 'All Company'
+    # st.session_state.selected_menu = 'All Company'
 
 elif st.session_state.selected_menu == 'Accenture':
     st.session_state.df = read_data(spreadsheet,"Accenture")
@@ -671,7 +671,7 @@ elif st.session_state.selected_menu == 'Accenture':
     show4(df_acc_process)
     show5(df_acc_process)
     show6(df_acc_process)
-    st.session_state.selected_menu = 'Accenture'
+    # st.session_state.selected_menu = 'Accenture'
 
             
 elif st.session_state.selected_menu == 'IBM':
@@ -711,7 +711,7 @@ elif st.session_state.selected_menu == 'IBM':
     show4(df_IBM_process)
     show5(df_IBM_process)
     show6(df_IBM_process)
-    st.session_state.selected_menu = 'IBM'
+    # st.session_state.selected_menu = 'IBM'
 
             
 elif st.session_state.selected_menu == 'Alibaba':
@@ -750,7 +750,7 @@ elif st.session_state.selected_menu == 'Alibaba':
     show4(df_Alb_process)
     show5(df_Alb_process)
     show6(df_Alb_process)
-    st.session_state.selected_menu = 'Alibaba'
+    # st.session_state.selected_menu = 'Alibaba'
 
             
 elif st.session_state.selected_menu == 'F5':
@@ -790,7 +790,7 @@ elif st.session_state.selected_menu == 'F5':
     show4(df_f5_process)
     show5(df_f5_process)
     show6(df_f5_process)
-    st.session_state.selected_menu = 'F5'
+    # st.session_state.selected_menu = 'F5'
     
 elif st.session_state.selected_menu == 'PaloAlto Networks':
     st.session_state.df = read_data(spreadsheet,"Paloalto")
@@ -829,7 +829,7 @@ elif st.session_state.selected_menu == 'PaloAlto Networks':
     show4(df_pa_process)
     show5(df_pa_process)
     show6(df_pa_process)
-    st.session_state.selected_menu = 'PaloAlto Networks'
+    # st.session_state.selected_menu = 'PaloAlto Networks'
             
 elif st.session_state.selected_menu == 'Cisco':
     st.session_state.df = read_data(spreadsheet,"Cisco")
@@ -868,7 +868,7 @@ elif st.session_state.selected_menu == 'Cisco':
     show4(df_cisco_process)
     show5(df_cisco_process)
     show6(df_cisco_process)
-    st.session_state.selected_menu = 'Cisco'
+    # st.session_state.selected_menu = 'Cisco'
 
 elif st.session_state.selected_menu == 'Meta':
     st.session_state.df = read_data(spreadsheet,"Meta")
@@ -907,7 +907,7 @@ elif st.session_state.selected_menu == 'Meta':
     show4(df_mt_process)
     show5(df_mt_process)
     show6(df_mt_process)
-    st.session_state.selected_menu = 'Meta'
+    # st.session_state.selected_menu = 'Meta'
             
 elif st.session_state.selected_menu == 'Thales':
     st.session_state.df = read_data(spreadsheet,"Thales")
@@ -946,7 +946,7 @@ elif st.session_state.selected_menu == 'Thales':
     show4(df_tl_process)
     show5(df_tl_process)
     show6(df_tl_process)
-    st.session_state.selected_menu = 'Thales'
+    # st.session_state.selected_menu = 'Thales'
             
         # df_style = df_acc.style.format({
         #         'Realisasi': '{:.2f}', 
