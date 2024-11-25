@@ -137,12 +137,15 @@ def show(df):
     with col3:
         df_notnull = df[df['Cumul_Realisasi']!=0].reset_index(drop=True)
         Cumulative_realisasi = df_notnull['Cumul_Realisasi']
-        latest_cumulative = Cumulative_realisasi.iloc[-1] 
-        previous_cumulative = Cumulative_realisasi.iloc[-2] 
-        if previous_cumulative != 0:
-            mom_growth = ((latest_cumulative - previous_cumulative) / previous_cumulative) * 100
+        if len(Cumulative_realisasi) > 1 :
+            latest_cumulative = Cumulative_realisasi.iloc[-1] 
+            previous_cumulative = Cumulative_realisasi.iloc[-2] 
+            if previous_cumulative != 0:
+                mom_growth = ((latest_cumulative - previous_cumulative) / previous_cumulative) * 100
+            else:
+                mom_growth = 0
         else:
-            mom_growth = 0  
+            mom_growth = 0
         st.metric(
             label="Month Over Month Growth", 
             value=f"{mom_growth:.2f}%", 
