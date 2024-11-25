@@ -588,7 +588,7 @@ menu_options = ['All Company', 'Accenture', 'IBM', 'Alibaba', 'F5', 'PaloAlto Ne
 st.session_state.selected_menu = st.sidebar.selectbox(
     'Menu', 
     menu_options,
-    # index=menu_options.index(st.session_state.selected_menu)
+    index=menu_options.index(st.session_state.selected_menu)
 )
 
 if st.session_state.selected_menu == 'All Company':
