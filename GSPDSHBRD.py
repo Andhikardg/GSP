@@ -573,7 +573,7 @@ def submit_update(df, menu, spreadsheet, sheet_name):
         st.warning(f"Unable to write.{e}")
     
     # Set the menu back to 'All Company' to refresh the display
-    # st.session_state.selected_menu = menu
+    st.session_state.selected_menu = menu
         
     # Optional: Show a success message
     st.success(f"Data updated for {Month}: Realisasi = {Realisasi}, Target = {Target}")
