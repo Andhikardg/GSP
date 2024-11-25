@@ -631,7 +631,7 @@ if st.session_state.selected_menu == 'All Company':
     show6(df_all_process)
     st.session_state.selected_menu = 'All Company'
 
-elif st.session_state. == 'Accenture':
+elif st.session_state.selected_menu == 'Accenture':
     st.session_state.df = read_data(spreadsheet,"Accenture")
     df_acc_process = Analytics(st.session_state.df)        
     with st.sidebar.form("Update Form"):
