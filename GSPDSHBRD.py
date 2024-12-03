@@ -147,7 +147,7 @@ def show(df):
         else:
             mom_growth = 0
         st.metric(
-            label="Month Over Month Growth", 
+            label="Month Over Month Growth (Cumulative)", 
             value=f"{mom_growth:.2f}%", 
         )
 
